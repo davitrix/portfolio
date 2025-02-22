@@ -1,29 +1,42 @@
-import { Card, CardBody, CardTitle, Col, Row } from "react-bootstrap";
+import styles from "../assets/css/luminousScroll.module.css";
 
 const Experience = () => {
   return (
-    <section id="experience">
+    <section id="experience" className="mt-4">
+      <div className={`${styles.scrollbar}`}></div>
       <h2>Experiencia</h2>
-      <Row xs={1} md={2} className="g-4">
-        <Col>
-          <Card>
-            <CardBody>
-              <CardTitle>Desarrollador Full Stack</CardTitle>
-              <p>Freelancer</p>
-              <p>2015 - Actualidad</p>
-            </CardBody>
-          </Card>
-        </Col>
-        <Col>
-          <Card>
-            <CardBody>
-              <CardTitle>Desarrollador Web</CardTitle>
-              <p>Empresa X</p>
-              <p>2013 - 2015</p>
-            </CardBody>
-          </Card>
-        </Col>
-      </Row>
+      <div className={`${styles.experiences}`}>
+        <p className={`${styles.experience}`}>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore
+          pariatur nisi ipsam perspiciatis, necessitatibus enim inventore esse
+          maiores velit quibusdam ipsa! Accusamus impedit natus et hic fugit
+          quos, rem excepturi.
+        </p>
+        <p className={`${styles.experience}`}>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore
+          pariatur nisi ipsam perspiciatis, necessitatibus enim inventore esse
+          maiores velit quibusdam ipsa! Accusamus impedit natus et hic fugit
+          quos, rem excepturi.
+        </p>
+        <p className={`${styles.experience}`}>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore
+          pariatur nisi ipsam perspiciatis, necessitatibus enim inventore esse
+          maiores velit quibusdam ipsa! Accusamus impedit natus et hic fugit
+          quos, rem excepturi.
+        </p>
+        <p className={`${styles.experience}`}>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore
+          pariatur nisi ipsam perspiciatis, necessitatibus enim inventore esse
+          maiores velit quibusdam ipsa! Accusamus impedit natus et hic fugit
+          quos, rem excepturi.
+        </p>
+        <p className={`${styles.experience}`}>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore
+          pariatur nisi ipsam perspiciatis, necessitatibus enim inventore esse
+          maiores velit quibusdam ipsa! Accusamus impedit natus et hic fugit
+          quos, rem excepturi.
+        </p>
+      </div>
     </section>
   );
 };
