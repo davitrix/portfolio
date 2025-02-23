@@ -3,7 +3,9 @@ import { Container } from "react-bootstrap";
 import BackgroundParticles from "./components/BackgroundParticles";
 import NavbarStiky from "./components/NavbarStiky";
 import detectSystemTheme from "./core/utils/detectSystemTheme";
-import Experience from "./sections/Experience";
+import Contact from "./sections/Contact";
+import Education from "./sections/Education";
+import Experiences from "./sections/Experience";
 import Home from "./sections/Home";
 import Skills from "./sections/Skills";
 
@@ -21,7 +23,9 @@ function App() {
       <Container>
         <Home />
         <Skills theme={theme} />
-        <Experience />
+        <Experiences />
+        <Education />
+        <Contact />
       </Container>
 
       <footer className="bg-body-tertiary text-center py-3 mt-4">

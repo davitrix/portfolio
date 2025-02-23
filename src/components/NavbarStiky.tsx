@@ -20,9 +20,10 @@ const NavbarStiky = ({ theme, setTheme }: NavbarStikyProps) => {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="#home">Inicio</Nav.Link>
+            <Nav.Link href="#portfolio">Portafolio</Nav.Link>
             <Nav.Link href="#skills">Habilidades</Nav.Link>
             <Nav.Link href="#experience">Experiencia</Nav.Link>
-            <Nav.Link href="#portfolio">Portafolio</Nav.Link>
+            <Nav.Link href="#education">Educación</Nav.Link>
             <Nav.Link href="#contact">Contacto</Nav.Link>
             <Nav.Link href="#aboutMe">Sobre mi</Nav.Link>
           </Nav>

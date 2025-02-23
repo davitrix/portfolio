@@ -44,7 +44,7 @@ const Skills = ({ theme }: SkillsProps) => {
             <CardBody>
               <CardTitle>Bases de Datos</CardTitle>
               <img
-                src={`https://skillicons.dev/icons?i=mysql,sqlite,postgres,redis&perline=5&theme=${theme}`}
+                src={`https://skillicons.dev/icons?i=mysql,sqlite,postgres,redis&perline=3&theme=${theme}`}
               />
             </CardBody>
           </Card>
