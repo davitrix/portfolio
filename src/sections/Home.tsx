@@ -14,12 +14,12 @@ const Home = () => {
         <h3>Desarrollador Full Stack</h3>
         <p>
           Creativo y emprendedor con más de seis años de experiencia,
-          especializado en Laravel. Siempre me mantengo a la vanguardia de las
-          últimas tecnologías, lo que me ha permitido construir sistemas web
-          robustos utilizando PHP y JavaScript. Además, tengo experiencia en
-          Dart (Flutter) para el desarrollo de aplicaciones móviles. Mi pasión
-          por la innovación y mi enfoque proactivo me impulsan a aprender
-          continuamente y a superar nuevos desafíos.
+          especializado en Laravel, siempre a la vanguardia de las últimas
+          tecnologías, lo que me ha permitido construir sistemas web robustos
+          utilizando PHP y JavaScript. Además, tengo experiencia en Dart
+          (Flutter) para el desarrollo de aplicaciones móviles. Mi pasión por la
+          innovación y mi enfoque proactivo me impulsan a aprender continuamente
+          y a superar nuevos desafíos.
         </p>
         <hr />
         <Button variant="primary" className="rounded-pill">

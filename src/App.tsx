@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Container } from "react-bootstrap";
 import BackgroundParticles from "./components/BackgroundParticles";
-import NavbarStiky from "./components/NavbarStiky";
+import NavbarSticky from "./components/NavbarSticky";
 import detectSystemTheme from "./core/utils/detectSystemTheme";
 import Contact from "./sections/Contact";
 import Education from "./sections/Education";
@@ -18,7 +18,7 @@ function App() {
 
   return (
     <>
-      <NavbarStiky theme={theme} setTheme={setTheme} />
+      <NavbarSticky theme={theme} setTheme={setTheme} />
 
       <Container>
         <Home />

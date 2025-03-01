@@ -1,12 +1,12 @@
 import { Container, Nav, Navbar } from "react-bootstrap";
 import SwitchTheme from "./SwitchTheme";
 
-interface NavbarStikyProps {
+interface NavbarStickyProps {
   theme: themeType;
   setTheme: React.Dispatch<React.SetStateAction<themeType>>;
 }
 
-const NavbarStiky = ({ theme, setTheme }: NavbarStikyProps) => {
+const NavbarSticky = ({ theme, setTheme }: NavbarStickyProps) => {
   return (
     <Navbar
       collapseOnSelect
@@ -15,7 +15,14 @@ const NavbarStiky = ({ theme, setTheme }: NavbarStikyProps) => {
       sticky="top"
     >
       <Container>
-        <Navbar.Brand href="#home">David A. Alvarado C</Navbar.Brand>
+        <Navbar.Brand href="#home">
+          <img
+            src="src/assets/images/about_me.gif"
+            width={30}
+            className="d-inline-block align-top"
+          />{" "}
+          David A. Alvarado C
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
@@ -36,4 +43,4 @@ const NavbarStiky = ({ theme, setTheme }: NavbarStikyProps) => {
   );
 };
 
-export default NavbarStiky;
+export default NavbarSticky;

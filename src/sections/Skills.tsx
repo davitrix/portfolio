@@ -1,3 +1,5 @@
+import { faScrewdriverWrench } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Card, CardBody, CardTitle, Col, Row } from "react-bootstrap";
 
 interface SkillsProps {
@@ -7,7 +9,10 @@ interface SkillsProps {
 const Skills = ({ theme }: SkillsProps) => {
   return (
     <section id="skills">
-      <h2>Habilidades</h2>
+      <h2>
+        <FontAwesomeIcon icon={faScrewdriverWrench} className="me-2" />
+        Habilidades
+      </h2>
       <Row xs={1} md={2} lg={3} className="g-4">
         <Col>
           <Card>

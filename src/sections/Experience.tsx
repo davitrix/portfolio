@@ -1,5 +1,7 @@
 // import styles from "../assets/css/luminousScroll.module.css";
 
+import { faRankingStar } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Badge, Card } from "react-bootstrap";
 
 interface ExperienceCardProps {
@@ -7,6 +9,7 @@ interface ExperienceCardProps {
   position: string;
   startDate: string;
   endDate: string;
+  logo: string;
   children: React.ReactNode;
 }
 
@@ -14,15 +17,22 @@ const ExperienceCard = (props: ExperienceCardProps) => {
   return (
     <Card className="mb-4 shadow-sm">
       <Card.Body>
-        <Card.Title as="h3">{props.company}</Card.Title>
-        <Card.Subtitle as="h6" className="mb-2 text-muted">
-          {props.position}
-        </Card.Subtitle>
-        <Card.Text className="text-secondary">
-          <small>
-            {props.startDate} - {props.endDate}
-          </small>
-        </Card.Text>
+        <div className="d-flex align-items-center gap-3 mb-3">
+          <img
+            className="rounded rounded-circle img-fluid"
+            src={props.logo}
+            width={80}
+          />
+          <div>
+            <Card.Title as="h3">{props.company}</Card.Title>
+            <Card.Subtitle as="h6" className="mb-2 text-muted">
+              {props.position}
+            </Card.Subtitle>
+            <Card.Text className="text-secondary small">
+              {props.startDate} - {props.endDate}
+            </Card.Text>
+          </div>
+        </div>
         <Card.Text>{props.children}</Card.Text>
       </Card.Body>
     </Card>
@@ -32,13 +42,17 @@ const ExperienceCard = (props: ExperienceCardProps) => {
 const Experiences = () => {
   return (
     <section id="experiences" className="mt-4">
-      <h2>Experiencia</h2>
+      <h2>
+        <FontAwesomeIcon icon={faRankingStar} className="me-2" />
+        Experiencia
+      </h2>
       <div className="d-flex flex-column gap-4">
         <ExperienceCard
           company="U.E.P Nuestra Señora de Agua Santa III"
           position="Desarrollador Web"
           startDate="Abril, 2019"
           endDate="Septiembre, 2022"
+          logo="src/assets/images/logo-ag.jpg"
         >
           Como desarrollador en esta institución, implementé un sistema web ERP
           utilizando Laravel, diseñado para la gestión escolar. Este sistema
@@ -65,6 +79,7 @@ const Experiences = () => {
           position="Desarrollador Full Stack"
           startDate="Enero, 2022"
           endDate="Presente"
+          logo="src/assets/images/logo-bt.jpg"
         >
           En esta empresa lidere el desarrollo de la plataforma NEGOBI con la
           ayuda de un gran equipo, consta de tres aplicaciones. La primera es un
