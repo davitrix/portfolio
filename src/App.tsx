@@ -30,7 +30,7 @@ function App() {
 
       <footer className="bg-body-tertiary text-center py-3 mt-4">
         <p>Desarrollado con React y Bootstrap</p>
-        <p>© 2021 David A. Alvarado C</p>
+        <p>© 2025 David A. Alvarado C</p>
       </footer>
 
       {/* Componente de partículas de fondo */}

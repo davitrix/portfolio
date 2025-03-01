@@ -4,7 +4,7 @@ import { Card, CardBody } from "react-bootstrap";
 
 const Education = () => {
   return (
-    <section id="education">
+    <section id="education" className="mb-5">
       <h2>
         <FontAwesomeIcon icon={faAward} className="me-2" />
         Educación y Certificaciones

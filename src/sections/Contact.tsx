@@ -8,7 +8,7 @@ import { Card, CardBody } from "react-bootstrap";
 
 const Contact = () => {
   return (
-    <section id="contact" className="mt-4">
+    <section id="contact" className="mb-5">
       <h2>
         <FontAwesomeIcon icon={faAddressBook} className="me-2" />
         Contacto

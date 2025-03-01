@@ -8,18 +8,18 @@ interface SkillsProps {
 
 const Skills = ({ theme }: SkillsProps) => {
   return (
-    <section id="skills">
+    <section id="skills" className="mb-5">
       <h2>
         <FontAwesomeIcon icon={faScrewdriverWrench} className="me-2" />
         Habilidades
       </h2>
-      <Row xs={1} md={2} lg={3} className="g-4">
+      <Row xs={1} md={2} lg={4} className="g-4">
         <Col>
           <Card>
             <CardBody>
-              <CardTitle>Frontend</CardTitle>
+              <CardTitle>Lenguajes</CardTitle>
               <img
-                src={`https://skillicons.dev/icons?i=html,css,ts,react,vue&perline=3&theme=${theme}`}
+                src={`https://skillicons.dev/icons?i=html,css,js,ts,php,dart&perline=3&theme=${theme}`}
               />
             </CardBody>
           </Card>
@@ -27,9 +27,9 @@ const Skills = ({ theme }: SkillsProps) => {
         <Col>
           <Card>
             <CardBody>
-              <CardTitle>Backend</CardTitle>
+              <CardTitle>Frameworks y Librerías</CardTitle>
               <img
-                src={`https://skillicons.dev/icons?i=dart,nodejs,php,flutter,electron,laravel&perline=3&theme=${theme}`}
+                src={`https://skillicons.dev/icons?i=flutter,electron,laravel,react,vue&perline=3&theme=${theme}`}
               />
             </CardBody>
           </Card>
@@ -39,7 +39,7 @@ const Skills = ({ theme }: SkillsProps) => {
             <CardBody>
               <CardTitle>Herramientas</CardTitle>
               <img
-                src={`https://skillicons.dev/icons?i=windows,git,github,cloudflare,androidstudio,vscode,powershell,postman&perline=5&theme=${theme}`}
+                src={`https://skillicons.dev/icons?i=windows,git,github,cloudflare,androidstudio,vscode,powershell,postman,nodejs&perline=5&theme=${theme}`}
               />
             </CardBody>
           </Card>

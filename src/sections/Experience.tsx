@@ -15,7 +15,7 @@ interface ExperienceCardProps {
 
 const ExperienceCard = (props: ExperienceCardProps) => {
   return (
-    <Card className="mb-4 shadow-sm">
+    <Card className="shadow-sm">
       <Card.Body>
         <div className="d-flex align-items-center gap-3 mb-3">
           <img
@@ -41,7 +41,7 @@ const ExperienceCard = (props: ExperienceCardProps) => {
 
 const Experiences = () => {
   return (
-    <section id="experiences" className="mt-4">
+    <section id="experiences" className="mb-5">
       <h2>
         <FontAwesomeIcon icon={faRankingStar} className="me-2" />
         Experiencia
