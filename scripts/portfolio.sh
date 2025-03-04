@@ -8,6 +8,7 @@ cd $APP_PATH
 
 git checkout .
 git pull
+sudo chmod -R 775 $APP_PATH
 npm install
 npm run build
 
