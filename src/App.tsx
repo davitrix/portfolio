@@ -7,6 +7,7 @@ import Contact from "./sections/Contact";
 import Education from "./sections/Education";
 import Experiences from "./sections/Experience";
 import Home from "./sections/Home";
+import Portfolio from "./sections/Portfolio";
 import Skills from "./sections/Skills";
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
         <Home />
         <Skills theme={theme} />
         <Experiences />
+        <Portfolio />
         <Education />
         <Contact />
       </Container>

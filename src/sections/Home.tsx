@@ -3,6 +3,8 @@ import { faFileLines } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Button } from "react-bootstrap";
 
+import davidImg from "../assets/images/david.png";
+
 const Home = () => {
   return (
     <section id="home" className="d-flex align-items-center my-5">
@@ -41,7 +43,7 @@ const Home = () => {
           </div>
         </div>
         <img
-          src="src/assets/images/david.png"
+          src={davidImg}
           height={450}
           alt="David Alvarado"
           className="d-none d-md-inline"

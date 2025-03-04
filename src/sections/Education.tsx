@@ -2,6 +2,9 @@ import { faAward } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Card, CardBody } from "react-bootstrap";
 
+import logoUnefa from "../assets/images/logo-unefa.jpg";
+import logoPlatzi from "../assets/images/platzi.png";
+
 const Education = () => {
   return (
     <section id="education" className="mb-5">
@@ -12,11 +15,7 @@ const Education = () => {
       <Card>
         <CardBody>
           <div className="d-flex align-items-center gap-3">
-            <img
-              src="src/assets/images/logo-unefa.jpg"
-              className="rounded-circle"
-              width={80}
-            />
+            <img src={logoUnefa} className="rounded-circle" width={80} />
             <div>
               <Card.Title as="h5">
                 Universidad Nacional Experimental Politécnica de la Fuerza
@@ -36,31 +35,19 @@ const Education = () => {
           <div className="d-flex flex-column gap-4">
             <div>
               <figure>
-                <img
-                  src="src/assets/images/platzi.png"
-                  width={60}
-                  alt="platzi"
-                />
+                <img src={logoPlatzi} width={60} alt="platzi" />
               </figure>
               <Card.Subtitle as="h6">Curso de PHP con Composer</Card.Subtitle>
             </div>
             <div>
               <figure>
-                <img
-                  src="src/assets/images/platzi.png"
-                  width={60}
-                  alt="platzi"
-                />
+                <img src={logoPlatzi} width={60} alt="platzi" />
               </figure>
               <Card.Subtitle as="h6">Curso de TypeScript</Card.Subtitle>
             </div>
             <div>
               <figure>
-                <img
-                  src="src/assets/images/platzi.png"
-                  width={60}
-                  alt="platzi"
-                />
+                <img src={logoPlatzi} width={60} alt="platzi" />
               </figure>
               <Card.Subtitle as="h6">
                 Curso de TypeScript: Tipos Avanzados y Funciones

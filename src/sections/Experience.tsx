@@ -4,6 +4,9 @@ import { faRankingStar } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Badge, Card } from "react-bootstrap";
 
+import logoAg from "../assets/images/logo-ag.jpg";
+import logoBt from "../assets/images/logo-bt.jpg";
+
 interface ExperienceCardProps {
   company: string;
   position: string;
@@ -52,7 +55,7 @@ const Experiences = () => {
           position="Desarrollador Web"
           startDate="Abril, 2019"
           endDate="Septiembre, 2022"
-          logo="src/assets/images/logo-ag.jpg"
+          logo={logoAg}
         >
           Como desarrollador en esta institución, implementé un sistema web ERP
           utilizando Laravel, diseñado para la gestión escolar. Este sistema
@@ -79,7 +82,7 @@ const Experiences = () => {
           position="Desarrollador Full Stack"
           startDate="Enero, 2022"
           endDate="Presente"
-          logo="src/assets/images/logo-bt.jpg"
+          logo={logoBt}
         >
           En esta empresa lidere el desarrollo de la plataforma NEGOBI con la
           ayuda de un gran equipo, consta de tres aplicaciones. La primera es un

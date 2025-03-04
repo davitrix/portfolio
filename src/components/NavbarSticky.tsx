@@ -1,6 +1,8 @@
 import { Container, Nav, Navbar } from "react-bootstrap";
 import SwitchTheme from "./SwitchTheme";
 
+import aboutMeGif from "../assets/images/about_me.gif";
+
 interface NavbarStickyProps {
   theme: themeType;
   setTheme: React.Dispatch<React.SetStateAction<themeType>>;
@@ -17,7 +19,7 @@ const NavbarSticky = ({ theme, setTheme }: NavbarStickyProps) => {
       <Container>
         <Navbar.Brand href="#home">
           <img
-            src="src/assets/images/about_me.gif"
+            src={aboutMeGif}
             width={30}
             className="d-inline-block align-top"
           />{" "}
@@ -27,9 +29,9 @@ const NavbarSticky = ({ theme, setTheme }: NavbarStickyProps) => {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="#home">Inicio</Nav.Link>
-            <Nav.Link href="#portfolio">Portafolio</Nav.Link>
             <Nav.Link href="#skills">Habilidades</Nav.Link>
             <Nav.Link href="#experience">Experiencia</Nav.Link>
+            <Nav.Link href="#portfolio">Portafolio</Nav.Link>
             <Nav.Link href="#education">Educación</Nav.Link>
             <Nav.Link href="#contact">Contacto</Nav.Link>
             <Nav.Link href="#aboutMe">Sobre mi</Nav.Link>
