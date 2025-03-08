@@ -10,7 +10,7 @@ import Home from "./sections/Home";
 import Portfolio from "./sections/Portfolio";
 import Skills from "./sections/Skills";
 
-import davidImg from "./assets/images/david.png";
+import davidImg from "./assets/images/david.webp";
 
 function App() {
   const [theme, setTheme] = useState<themeType>(detectSystemTheme());

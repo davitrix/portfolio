@@ -17,7 +17,7 @@ const Portfolio = () => {
         Portafolio
       </h2>
 
-      <Row lg={3} md={2} xs={2} className="g-4">
+      <Row lg={3} md={2} xs={1} className="g-4">
         <Col>
           <Card>
             <Card.Img variant="top" src={Educasis1} />

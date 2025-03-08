@@ -3,7 +3,7 @@ import { faFileLines } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Button } from "react-bootstrap";
 
-import davidImg from "../assets/images/david.png";
+import davidImg from "../assets/images/david.webp";
 
 const Home = () => {
   return (
