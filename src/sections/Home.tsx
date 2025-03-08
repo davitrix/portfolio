@@ -45,7 +45,7 @@ const Home = () => {
           src={davidImg}
           height={450}
           alt="David Alvarado"
-          className="d-none d-md-inline"
+          className="d-none d-lg-inline"
         />
       </div>
     </section>

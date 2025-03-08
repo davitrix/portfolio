@@ -24,9 +24,12 @@ const Portfolio = () => {
             <Card.Body className="d-flex justify-content-between">
               <div>
                 <Card.Title>Educasis</Card.Title>
-                <Card.Text>Proyecto para la gestión de escuelas</Card.Text>
+                <Card.Text>
+                  Proyecto para la gestión de colegios en Venezuela, con
+                  tecnologías como laravel, Livewire, Alpine.js, Bootstrap y
+                  MySQL
+                </Card.Text>
               </div>
-              <figure></figure>
             </Card.Body>
           </Card>
         </Col>
@@ -36,9 +39,13 @@ const Portfolio = () => {
             <Card.Body className="d-flex justify-content-between">
               <div>
                 <Card.Title>Negobi</Card.Title>
-                <Card.Text>Proyecto para la gestión de escuelas</Card.Text>
+                <Card.Text>
+                  Proyecto para la Gestión y visualización de datos de antiguos
+                  ERP y que extiende sus funcionalidades a través de una API y
+                  un WEBSOCKET con tecnologías como Laravel, Livewire,
+                  Alpine.js, Bootstrap, Reverb y MySQL
+                </Card.Text>
               </div>
-              <figure></figure>
             </Card.Body>
           </Card>
         </Col>
@@ -48,9 +55,14 @@ const Portfolio = () => {
             <Card.Body className="d-flex justify-content-between">
               <div>
                 <Card.Title>Negobi App</Card.Title>
-                <Card.Text>Proyecto para la gestión de escuelas</Card.Text>
+                <Card.Text>
+                  Proyecto para la toma de pedidos de parte de los vendedores
+                  registrados en el ERP local, conectada a Negobi Web a través
+                  de una API, permitiendo la visualización de datos y la
+                  sincronización de los mismos con Negobi Sync usando flutter y
+                  SqLite
+                </Card.Text>
               </div>
-              <figure></figure>
             </Card.Body>
           </Card>
         </Col>
@@ -60,9 +72,12 @@ const Portfolio = () => {
             <Card.Body className="d-flex justify-content-between">
               <div>
                 <Card.Title>Negobi Sync</Card.Title>
-                <Card.Text>Proyecto para la gestión de escuelas</Card.Text>
+                <Card.Text>
+                  Proyecto para la extracción y sincronización de datos de
+                  sistemas ERP locales con Negobi Web usando Electron con
+                  TypeScript y SqlServer
+                </Card.Text>
               </div>
-              <figure></figure>
             </Card.Body>
           </Card>
         </Col>
@@ -72,9 +87,11 @@ const Portfolio = () => {
             <Card.Body className="d-flex justify-content-between">
               <div>
                 <Card.Title>Jardines del Remanso</Card.Title>
-                <Card.Text>Proyecto para la gestión de escuelas</Card.Text>
+                <Card.Text>
+                  Landing page para ofrecer servicios funerarios en Venezuela
+                  con tecnologías como WordPress, Elementor y MySQL
+                </Card.Text>
               </div>
-              <figure></figure>
             </Card.Body>
           </Card>
         </Col>
@@ -84,9 +101,12 @@ const Portfolio = () => {
             <Card.Body className="d-flex justify-content-between">
               <div>
                 <Card.Title>Makechef</Card.Title>
-                <Card.Text>Proyecto para la gestión de escuelas</Card.Text>
+                <Card.Text>
+                  Proyecto para la toma de ordenes en restaurantes conectado a
+                  la plataforma SAINT con tecnologías como Laravel, Livewire,
+                  Alpine.js, Bootstrap y MySQL
+                </Card.Text>
               </div>
-              <figure></figure>
             </Card.Body>
           </Card>
         </Col>

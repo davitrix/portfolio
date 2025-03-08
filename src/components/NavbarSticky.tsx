@@ -34,7 +34,7 @@ const NavbarSticky = ({ theme, setTheme }: NavbarStickyProps) => {
             <Nav.Link href="#portfolio">Portafolio</Nav.Link>
             <Nav.Link href="#education">Educación</Nav.Link>
             <Nav.Link href="#contact">Contacto</Nav.Link>
-            <Nav.Link href="#aboutMe">Sobre mi</Nav.Link>
+            {/* <Nav.Link href="#aboutMe">Sobre mi</Nav.Link> */}
           </Nav>
           <Nav>
             <SwitchTheme themeHandler={theme} setThemeHandler={setTheme} />

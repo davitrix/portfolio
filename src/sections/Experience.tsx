@@ -69,12 +69,12 @@ const Experiences = () => {
             <li>
               <strong>Negobi Sync:</strong> Aplicación de escritorio para la
               extracción de datos de sistemas ERP locales y sincronización de
-              los mismos con NEGOBI WEB.
+              los mismos con Negobi Web.
             </li>
             <li>
               <strong>Negobi App:</strong> Aplicación móvil para la toma de
               pedidos de parte de los vendedores registrados en el ERP local,
-              conectada a NEGOBI WEB a través de una API, permitiendo la
+              conectada a Negobi Web a través de una API, permitiendo la
               sincronización de datos en tiempo real y abriendo la posibilidad
               de modernizar los procesos de ventas de las empresas.
             </li>
@@ -107,14 +107,21 @@ const Experiences = () => {
         >
           Como desarrollador en esta institución educativa, implementé un
           sistema web ERP utilizando Laravel y Livewire, diseñado para la
-          gestión escolar. Este sistema cuenta con múltiples funcionalidades,
-          como un algoritmo para la generación automática de horarios escolares,
-          exportación de diversos tipos de reportes en Excel y Pdf, envíos
-          masivos de correo electrónico, control y gestión de pagos y la
-          capacidad para la administración de múltiples instituciones. A través
-          del sitio web <a href="https://educasis.net">educasis</a> actualmente
-          ofrezco el servicio de este sistema a otras instituciones educativas
-          en Venezuela.
+          gestión escolar. Este sistema cuenta con múltiples funcionalidades
+          como:
+          <ul>
+            <li>Algoritmo de generación automática de horarios escolares</li>
+            <li>Exportación de diversos tipos de reportes en Excel y Pdf</li>
+            <li>Registro y control de asistencia de los estudiantes</li>
+            <li>Registro y control de calificaciones</li>
+            <li>Registro y control de pagos</li>
+            <li>Registro y control de personal docente y administrativo</li>
+            <li>Envío de notificaciones a través de correo electrónico</li>
+            <li>Capacidad para la administración de múltiples instituciones</li>
+          </ul>
+          Actualmente este servicio se ofrece a través del sitio web{" "}
+          <a href="https://www.educasis.net">www.educasis.net</a> disponible
+          para otras instituciones educativas en Venezuela.
           <hr />
           <div className="d-flex flex-wrap gap-2">
             <Badge bg="secondary">Laravel</Badge>

@@ -10,6 +10,8 @@ import Home from "./sections/Home";
 import Portfolio from "./sections/Portfolio";
 import Skills from "./sections/Skills";
 
+import davidImg from "./assets/images/david.png";
+
 function App() {
   const [theme, setTheme] = useState<themeType>(detectSystemTheme());
 
@@ -28,6 +30,10 @@ function App() {
         <Portfolio />
         <Education />
         <Contact />
+
+        <div className="d-flex justify-content-center align-items-center d-lg-none">
+          <img src={davidImg} height={400} alt="David Alvarado" />
+        </div>
       </Container>
 
       <footer className="bg-body-tertiary text-center py-3 mt-4">
