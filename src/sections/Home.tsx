@@ -11,15 +11,14 @@ const Home = () => {
       <div className="d-flex justify-content-between align-items-center gap-5">
         <div>
           <h1 className="display-4">Hola, Soy David Alvarado</h1>
-          <h3>Desarrollador Full Stack</h3>
+          <h3>Full Stack Developer | PHP | TypeScript | Dart</h3>
           <p>
-            Creativo y emprendedor con más de seis años de experiencia,
-            especializado en Laravel, siempre a la vanguardia de las últimas
-            tecnologías, lo que me ha permitido construir sistemas web robustos
-            utilizando PHP y JavaScript. Además, tengo experiencia en Dart
-            (Flutter) para el desarrollo de aplicaciones móviles. Mi pasión por
-            la innovación y mi enfoque proactivo me impulsan a aprender
-            continuamente y a superar nuevos desafíos.
+            Soy un desarrollador profesional con más de seis años de experiencia
+            en Laravel (PHP), un año en Flutter (Dart) y tres años en Electron
+            (TypeScript). Me destaco por mi carácter investigativo, dinámico y
+            compromiso con el aprendizaje continuo. Mi objetivo es contribuir al
+            desarrollo de proyectos tecnológicos innovadores, resolviendo
+            problemas complejos y generando valor para la organización.
           </p>
           <hr />
           <div className="d-flex gap-2 align-items-center">
