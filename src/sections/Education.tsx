@@ -15,7 +15,7 @@ const Education = () => {
       <Card>
         <CardBody>
           <div className="d-flex align-items-center gap-3">
-            <img src={logoUnefa} className="rounded-circle" width={80} />
+            <img src={logoUnefa} className="rounded-circle" width={70} />
             <div>
               <Card.Title as="h5">
                 Universidad Nacional Experimental Politécnica de la Fuerza
@@ -52,6 +52,12 @@ const Education = () => {
               <Card.Subtitle as="h6">
                 Curso de TypeScript: Tipos Avanzados y Funciones
               </Card.Subtitle>
+            </div>
+            <div>
+              <figure>
+                <img src={logoPlatzi} width={60} alt="platzi" />
+              </figure>
+              <Card.Subtitle as="h6">Curso de React.js</Card.Subtitle>
             </div>
           </div>
         </CardBody>

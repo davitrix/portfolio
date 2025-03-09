@@ -1,7 +1,6 @@
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faFileLines } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Button } from "react-bootstrap";
 
 import davidImg from "../assets/images/david.webp";
 
@@ -16,15 +15,18 @@ const Home = () => {
             Soy un desarrollador profesional con más de seis años de experiencia
             en Laravel (PHP), un año en Flutter (Dart) y tres años en Electron
             (TypeScript). Me destaco por mi carácter investigativo, dinámico y
-            compromiso con el aprendizaje continuo. Mi objetivo es contribuir al
-            desarrollo de proyectos tecnológicos innovadores, resolviendo
+            mi compromiso con el aprendizaje continuo. Mi objetivo es contribuir
+            al desarrollo de proyectos tecnológicos innovadores, resolviendo
             problemas complejos y generando valor para la organización.
           </p>
           <hr />
           <div className="d-flex gap-2 align-items-center">
-            <Button variant="primary" className="rounded-pill">
+            <a
+              href="/cv-david-alvarado.pdf"
+              className="btn btn-primary rounded-pill"
+            >
               <FontAwesomeIcon icon={faFileLines} /> Descargar CV
-            </Button>
+            </a>
             <a
               href="https://www.linkedin.com/in/davidalvarado711"
               target="_blank"

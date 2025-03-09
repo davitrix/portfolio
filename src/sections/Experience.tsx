@@ -24,10 +24,10 @@ const ExperienceCard = (props: ExperienceCardProps) => {
           <img
             className="rounded rounded-circle img-fluid"
             src={props.logo}
-            width={80}
+            style={{ maxWidth: "70px", width: "100%" }} // responsive
           />
           <div>
-            <Card.Title as="h3">{props.company}</Card.Title>
+            <Card.Title as="h5">{props.company}</Card.Title>
             <Card.Subtitle as="h6" className="mb-2 text-muted">
               {props.position}
             </Card.Subtitle>
@@ -57,8 +57,9 @@ const Experiences = () => {
           endDate="Presente"
           logo={logoBt}
         >
-          En esta empresa lidere el desarrollo de la plataforma NEGOBI, la cual
-          se compone de tres aplicaciones:
+          En esta empresa lidere el desarrollo de la plataforma{" "}
+          <a href="https://www.negobi.com">www.negobi.com</a>, la cual se
+          compone de tres aplicaciones:
           <ul>
             <li>
               <strong>Negobi Web:</strong> Plataforma web de gestión de datos y
@@ -110,15 +111,18 @@ const Experiences = () => {
           gestión escolar. Este sistema cuenta con múltiples funcionalidades
           como:
           <ul>
-            <li>Algoritmo de generación automática de horarios escolares</li>
-            <li>Exportación de diversos tipos de reportes en Excel y Pdf</li>
-            <li>Registro y control de asistencia de los estudiantes</li>
-            <li>Registro y control de calificaciones</li>
-            <li>Registro y control de pagos</li>
-            <li>Registro y control de personal docente y administrativo</li>
-            <li>Envío de notificaciones a través de correo electrónico</li>
-            <li>Capacidad para la administración de múltiples instituciones</li>
+            <li>Algoritmo de generación automática de horarios escolares.</li>
+            <li>Exportación de diversos tipos de reportes en Excel y Pdf.</li>
+            <li>Registro y control de asistencia de los estudiantes.</li>
+            <li>Registro y control de calificaciones.</li>
+            <li>Registro y control de pagos.</li>
+            <li>Registro y control de personal docente y administrativo.</li>
+            <li>Envío de notificaciones a través de correo electrónico.</li>
+            <li>
+              Capacidad para la administración de múltiples instituciones.
+            </li>
           </ul>
+          <hr />
           Actualmente este servicio se ofrece a través del sitio web{" "}
           <a href="https://www.educasis.net">www.educasis.net</a> disponible
           para otras instituciones educativas en Venezuela.
