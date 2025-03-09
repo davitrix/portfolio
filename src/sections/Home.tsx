@@ -23,6 +23,7 @@ const Home = () => {
           <div className="d-flex gap-2 align-items-center">
             <a
               href="/cv-david-alvarado.pdf"
+              target="_blank"
               className="btn btn-primary rounded-pill"
             >
               <FontAwesomeIcon icon={faFileLines} /> Descargar CV
